@@ -1,0 +1,13 @@
+module Hello where
+
+template HelloContract
+  with
+    issuer : Party
+    owner : Party
+  where
+    signatory issuer
+    observer owner
+
+    choice SayHello : Text
+      controller owner
+      do return "Hello, DAML world!"
