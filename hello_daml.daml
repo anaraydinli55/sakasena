@@ -11,3 +11,8 @@ template HelloContract
     choice SayHello : Text
       controller owner
       do return "Hello, DAML world!"
+
+## How to Build
+1. DAML SDK quraşdır  
+2. Terminalda `daml build` çalışdır  
+3. Sandbox-a deploy et
