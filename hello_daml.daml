@@ -16,3 +16,4 @@ template HelloContract
 1. DAML SDK quraşdır  
 2. Terminalda `daml build` çalışdır  
 3. Sandbox-a deploy et
+4. hello daml
