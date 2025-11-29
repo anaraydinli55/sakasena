@@ -17,3 +17,4 @@ template HelloContract
 2. Terminalda `daml build` çalışdır  
 3. Sandbox-a deploy et
 4. hello daml
+5. good morning daml
